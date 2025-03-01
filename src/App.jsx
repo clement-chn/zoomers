@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css'
-import NavBar from './components/NavBar.jsx'
+import Accueil from './pages/Accueil.jsx'
 
 function App() {
   
   return (
     <>
-      <NavBar />
+      <div className='bg-se-white'>
+        <Accueil />
+      </div>
     </>
   )
 }
