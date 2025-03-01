@@ -18,17 +18,34 @@ function NavBar () {
                         <ul className={`text-center py-8 ${isOpen ? 'block' : 'hidden'}`}>
                             <li>
                                 <a href="#">
-                                    Accueil
+                                    Environnement
                                 </a>
                             </li>
                             <li className='pt-6'>
                                 <a href="#">
-                                    Podcast
+                                    Technologie
                                 </a>
                             </li>
                             <li className='pt-6'>
                                 <a href="#">
-                                    Réseaux sociaux
+                                    Mode
+                                </a>
+                            </li>
+                            <li className='pt-6'>
+                                <a href="#">
+                                    Culture
+                                </a>
+                            </li>
+                            <li className='pt-6'>
+                                <a href="#">
+                                    Musique
+                                </a>
+                            </li>
+                        </ul>
+                        <ul className={`border-t text-center py-8 ${isOpen ? 'block' : 'hidden'}`}>
+                            <li>
+                                <a href="#">
+                                    Articles
                                 </a>
                             </li>
                         </ul>
