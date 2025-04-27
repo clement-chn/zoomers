@@ -8,7 +8,7 @@ function NavBar () {
     return (
             <>
                 <div>
-                    <nav className='shadow shadow-md p-5'>
+                    <nav className='shadow shadow-md p-5 bg-white sticky top-0 z-50 mx-auto max-w-7xl'>
                         <div className='flex justify-between'>
                             <a href="#" className='self-center'>
                                 <img src='/logo.png' className='w-10'/>
