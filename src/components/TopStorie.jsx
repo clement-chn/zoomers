@@ -1,19 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-function Header() {
+function TopStorie() {
   return (
-    <div className="max-w-7xl mx-auto h-[50vh] relative">
-      <img
-        src="horizontal_2.jpg"
-        alt="girls taking picture of each other"
-        className="w-full h-full object-cover"
-      />
-
-      <button
+    <div className='h-[40vh] w-[70vw] rounded-lg shadow-lg shadow-gray-700'>
+        <img src="vertical_1.jpg" alt="" className='w-full h-full object-cover'/>
+        <button
         type="submit"
-        className="absolute bottom-8 right-8 gap-2 flex justify-center items-center w-[15rem] shadow-xl text-md bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-pr-violet hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"
+        className="flex justify-center items-center w-[15rem] shadow-xl text-md bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-pr-violet hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"
       >
-        Découvre la storie Zoomers
+        
         <svg
           className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
           viewBox="0 0 16 19"
@@ -26,7 +21,7 @@ function Header() {
         </svg>
       </button>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default TopStorie
